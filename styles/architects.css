@@ -51,7 +51,12 @@ color: white;
     margin-right: 30px;
 
 }
-.navbar,.banner,.facts-section,.Sponspors{
+.navbar,
+.banner,
+.facts-section,
+.Sponspors,
+.footer,
+.features{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -131,6 +136,58 @@ height: 64px;
  background-color:rgba(255, 144, 14, 1);
  
 }
+/* features related style */
+.features{
+    margin-top: 100px;
+    display: flex;
+    gap: 140px;
+}
+.feature-title{
+     font-size: 3rem;
+    font-weight: 700;
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+background: rgba(255, 255, 255, 1);
+margin-bottom: 10px;
+}
+.card-title{
+    color:  #424242;
+font-style: SemiBold;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+text-align: left;
+}
+.feature-text{
+    color: #424242; 
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+.btn-feature{
+width: 342px;
+height: 200px;
+background-color: rgba(255, 144, 14, 1);
+}
+ #budge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+ }
+ #year{
+    font-size: 4rem;
+    font-weight: 700;
+ }
 /* fact feature related styles */
 .section-title,.sponspors-title{
     font-size: 3rem;
@@ -190,6 +247,22 @@ height: 64px;
 width: 166.76px;
 height: 50px;
 filter: grayscale(100%);
+}
+.footer{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+     background-color: rgba(255, 144, 14, 0.1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+  
+}
+.footer-text{
+    width: 1440px;
+height: 80px;
+border: 2px solid goldenrod;   
 }
 
 /* responsive media qurey */
